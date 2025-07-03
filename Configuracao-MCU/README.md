@@ -18,7 +18,7 @@
 
 | Versão | Data       | Autor       | Descrição         |
 |--------|------------|-------------|-------------------|
-| 1.0.0  | 09/09/2024 | Adenilton R | Início do Projeto |
+| 1.0.0  | 03/07/2025 | Adenilton R | Início do Projeto |
 
 ## Resumo
 
@@ -36,13 +36,9 @@ Este documento tem como objetivo fornecer orientações para a configuração do
 
 ## Projetos
 
-[1 - Pisca Led;](https://github.com/Facens-Cedeps/Projeto-Documentacao/tree/master/8051/ATMEL-AT89S52/1-Pisca-led)
+[1 - Pisca Led;]()
 
-[2 - Botão;](https://github.com/Facens-Cedeps/Projeto-Documentacao/tree/master/8051/ATMEL-AT89S52/2-Botao)
-
-[3 - PWM;](https://github.com/Facens-Cedeps/Projeto-Documentacao/tree/master/8051/ATMEL-AT89S52/3-PWM)
-
-[4 - Display de 7 Segmentos;](https://github.com/Facens-Cedeps/Projeto-Documentacao/tree/master/8051/ATMEL-AT89S52/4-Display-7-Seg)
+[2 - Botão;]()
 
 ## Informações Adicionais
 
