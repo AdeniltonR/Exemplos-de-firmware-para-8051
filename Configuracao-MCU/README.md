@@ -83,7 +83,7 @@ Clique em `Finish`:
  * PROJETO: Nome do projeto
  * VERSAO: 01
  * DESCRICAO: - feat: Descrição.
- *            - docs: MikroC PRO for 8051 v3.6.0 - SIMIIDE 1.1.0
+ *            - docs: MikroC PRO for 8051 v3.6.0 - PICSimLab Simulador 0.9.1
  * LINKS: 
 */
 
