@@ -7,9 +7,9 @@ L_main0:
 ;pisca-led.c,24 :: 		P1 ^= PIN_led;
 	XRL P1+0, #2
 ;pisca-led.c,25 :: 		delay_ms(1000);
-	MOV R5, 7
-	MOV R6, 86
-	MOV R7, 60
+	MOV R5, 6
+	MOV R6, 17
+	MOV R7, 253
 	DJNZ R7, 
 	DJNZ R6, 
 	DJNZ R5, 

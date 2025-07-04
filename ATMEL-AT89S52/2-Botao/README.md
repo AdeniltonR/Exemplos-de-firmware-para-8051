@@ -1,4 +1,4 @@
-# _Pisca Led_
+# _Botão_
 
 ![https://img.shields.io/badge/Firmware_version-1.0.0-blue](https://img.shields.io/badge/Firmware_version-1.0.0-blue)
 
@@ -25,7 +25,7 @@
 
 ## Resumo
 
-Este documento tem como objetivo demonstrar como configurar o simulador PICSimLab para executar um firmware que controla o estado de um LED em um microcontrolador, fazendo-o piscar a cada 500ms.
+Este documento tem como objetivo demonstrar como configurar o simulador PICSimLab para executar um firmware que faz a leitura de um botão do microcontrolador, fazendo acender um led.
 
 ## Links para estudos
 
@@ -101,32 +101,36 @@ Esquemático eletrônico.
 | Nome        | Pino       |
 |-------------|------------|
 | PIN_led     | P1.1       |
+| PIN_button  | P3.2       |
 
 ## Configuração do simulador PICSimLab
 
-Depois que vc instalar simulador [**`aqui`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main?tab=readme-ov-file#instala%C3%A7%C3%A3o-picsimlab), abra esse arquivo para ter o [**`Kit de simulação`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main/ATMEL-AT89S52/1-Pisca-led/Simulador).
+Depois que vc instalar simulador [**`aqui`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main?tab=readme-ov-file#instala%C3%A7%C3%A3o-picsimlab), abra esse arquivo para ter o [**`Kit de simulação`**]().
 
 ## Configuração do Firmware
 
 ![pisca-led.gif](Docs/esquematico.png)
 
-[**`Firmware`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/blob/main/ATMEL-AT89S52/1-Pisca-led/pisca-led/pisca-led.c) para teste:
+[**`Firmware`**]() para teste:
 
 ```c
 /*
  * NOME: Adenilton Ribeiro
  * DATA: 03/07/2025
- * PROJETO: Pisca Led
+ * PROJETO: Botao
  * VERSAO: 1.0.0
- * DESCRICAO: - feat: Fazer MCU piscar um led.
+ * DESCRICAO: - feat: Acende o LED quando o botao e pressionado e apaga quando solto
  *            - docs: MikroC PRO for 8051 v3.6.0 - PICSimLab Simulador 0.9.1
- * LINKS: Tutorial: https://www.youtube.com/watch?v=QY_adW902Uw&t
+ * LINKS:
 */
 
 // ========================================================================================================
 //---MAPEAMENTO DE HARDWARE---
 
-#define PIN_led (1<<P1_1)
+//---define o LED no pino P1.1---
+#define PIN_led P1_1
+//---define o botao no pino P3.2---
+#define PIN_button P3_2
 
 // ========================================================================================================
 /**
@@ -134,11 +138,17 @@ Depois que vc instalar simulador [**`aqui`**](https://github.com/AdeniltonR/Exem
  *
 */
 void main() {
-
+     //---inicializa a porta P1 (todos os pinos em 1)---
+     P1 = 0xFF;
+     
      while(1) {
-              P1 ^= PIN_led;
-              delay_ms(1000);
+              if(P3 & (1<<PIN_button)) {
+                    P1 |= (1<<PIN_led);
+              }else{
+                    P1 &= ~(1<<PIN_led);
+              }
      }
+
 }
 ```
 

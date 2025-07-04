@@ -2,7 +2,7 @@
  * NOME: Adenilton Ribeiro
  * DATA: 03/07/2025
  * PROJETO: Pisca Led
- * VERSAO: 01
+ * VERSAO: 1.0.0
  * DESCRICAO: - feat: Fazer MCU piscar um led.
  *            - docs: MikroC PRO for 8051 v3.6.0 - PICSimLab Simulador 0.9.1
  * LINKS: Tutorial: https://www.youtube.com/watch?v=QY_adW902Uw&t
