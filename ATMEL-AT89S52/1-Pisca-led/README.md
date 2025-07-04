@@ -25,7 +25,7 @@
 
 ## Resumo
 
-Este documento tem como objetivo demonstrar como configurar o simulador PICSimLab para executar um firmware que controla o estado de um LED em um microcontrolador, fazendo-o piscar a cada 500ms.
+Este documento tem como objetivo demonstrar como configurar o simulador PICSimLab para executar um firmware que controla o estado de um LED em um microcontrolador, fazendo-o piscar a cada 1000ms.
 
 ## Links para estudos
 

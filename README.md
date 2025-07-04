@@ -22,7 +22,7 @@
 
 ## Resumo
 
-Este documento visa fornecer orientações para a instalação dos softwares necessários, incluindo o MikroC PRO for 8051,  e o Simulador SIMUIIDE, bem como para a configuração do microcontrolador na IDE MikroC. Cada exemplo de projeto será detalhadamente abordado, fornecendo instruções passo a passo para execução nos respectivos softwares mencionados.
+Este documento visa fornecer orientações para a instalação dos softwares necessários, incluindo o MikroC PRO for 8051,  e o Simulador PICSimLab, bem como para a configuração do microcontrolador na IDE MikroC. Cada exemplo de projeto será detalhadamente abordado, fornecendo instruções passo a passo para execução nos respectivos softwares mencionados.
 
 ## Requisitos
 
