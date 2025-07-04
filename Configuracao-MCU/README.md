@@ -38,7 +38,7 @@ Este documento tem como objetivo fornecer orientações para a configuração do
 
 [1 - Pisca Led;](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main/ATMEL-AT89S52/1-Pisca-led)
 
-[2 - Botão;]()
+[2 - Botão;](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main/ATMEL-AT89S52/2-Botao)
 
 ## Informações Adicionais
 

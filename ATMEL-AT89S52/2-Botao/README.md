@@ -105,13 +105,13 @@ Esquemático eletrônico.
 
 ## Configuração do simulador PICSimLab
 
-Depois que vc instalar simulador [**`aqui`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main?tab=readme-ov-file#instala%C3%A7%C3%A3o-picsimlab), abra esse arquivo para ter o [**`Kit de simulação`**]().
+Depois que vc instalar simulador [**`aqui`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main?tab=readme-ov-file#instala%C3%A7%C3%A3o-picsimlab), abra esse arquivo para ter o [**`Kit de simulação`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main/ATMEL-AT89S52/2-Botao/Simulador).
 
 ## Configuração do Firmware
 
 ![pisca-led.gif](Docs/esquematico.png)
 
-[**`Firmware`**]() para teste:
+[**`Firmware`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/blob/main/ATMEL-AT89S52/2-Botao/Botao/Botao.c) para teste:
 
 ```c
 /*
