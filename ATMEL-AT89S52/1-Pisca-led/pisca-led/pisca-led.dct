@@ -93,7 +93,6 @@ delay_5500us
 delay_80us
 delay_8ms
 delay_cyc
-delay_ms
 disale
 disale_bit
 disrto

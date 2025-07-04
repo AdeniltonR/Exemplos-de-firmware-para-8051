@@ -104,33 +104,24 @@ Esquemático eletrônico.
 
 ## Configuração do simulador SIMUIIDE
 
-Depois que vc instalar simulador [**`aqui`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main?tab=readme-ov-file#instala%C3%A7%C3%A3o-picsimlab), abra esse arquivo para ter o [**`Kit de simulação`**]().
+Depois que vc instalar simulador [**`aqui`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main?tab=readme-ov-file#instala%C3%A7%C3%A3o-picsimlab), abra esse arquivo para ter o [**`Kit de simulação`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main/ATMEL-AT89S52/1-Pisca-led/Simulador).
 
 ## Configuração do Firmware
 
 ![pisca-led.gif](Docs/esquematico.png)
 
-[**`Firmware`**]() para teste:
+[**`Firmware`**](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/blob/main/ATMEL-AT89S52/1-Pisca-led/pisca-led/pisca-led.c) para teste:
 
 ```c
 /*
  * NOME: Adenilton Ribeiro
- * DATA: 12/09/2024
+ * DATA: 03/07/2025
  * PROJETO: Pisca Led
  * VERSAO: 01
  * DESCRICAO: - feat: Fazer MCU piscar um led.
- *            - docs: MikroC PRO for 8051 v3.6.0 - SIMIIDE 1.1.0
+ *            - docs: MikroC PRO for 8051 v3.6.0 - PICSimLab Simulador 0.9.1
  * LINKS: Tutorial: https://www.youtube.com/watch?v=QY_adW902Uw&t
 */
-
-// ========================================================================================================
-// ---INCLUDE---
-
-// ========================================================================================================
-//---BIBLIOTECAS AUXILIARES---
-
-// ========================================================================================================
-//---MAPEAMENTO DE ESTADO---
 
 // ========================================================================================================
 //---MAPEAMENTO DE HARDWARE---
@@ -138,16 +129,10 @@ Depois que vc instalar simulador [**`aqui`**](https://github.com/AdeniltonR/Exem
 #define PIN_led (1<<P1_1)
 
 // ========================================================================================================
-//---VARIAVEIS GLOBAIS---
-
-// ========================================================================================================
-//---PROTOTIPO DA FUNCAO---
-
-// ========================================================================================================
 /**
  * @brief Void main
  *
- */
+*/
 void main() {
 
      while(1) {
@@ -162,6 +147,6 @@ void main() {
 | Info        | Modelo              |
 |-------------|---------------------|
 | uC          | AT89S52             |
-| Placa       | Kit CEDEPS          |
+| Placa       | PICSimLab           |
 | Arquitetura | MCS-51              |
 | IDE         | MikroC PRO for 8051 |

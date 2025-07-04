@@ -36,7 +36,7 @@ Este documento tem como objetivo fornecer orientações para a configuração do
 
 ## Projetos
 
-[1 - Pisca Led;]()
+[1 - Pisca Led;](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main/ATMEL-AT89S52/1-Pisca-led)
 
 [2 - Botão;]()
 
@@ -81,7 +81,7 @@ Clique em `Finish`:
  * NOME: Nome
  * DATA: 03/07/2025
  * PROJETO: Nome do projeto
- * VERSAO: 01
+ * VERSAO: 1.0.0
  * DESCRICAO: - feat: Descrição.
  *            - docs: MikroC PRO for 8051 v3.6.0 - PICSimLab Simulador 0.9.1
  * LINKS: 

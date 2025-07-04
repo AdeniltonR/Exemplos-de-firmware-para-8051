@@ -34,7 +34,7 @@ Softwares a serem instalados:
 
 Configuração do microcontrolador:
 
-⚙️ [ATMEL AT89S51]()
+⚙️ [ATMEL AT89S51](https://github.com/AdeniltonR/Exemplos-de-firmware-para-8051/tree/main/ATMEL-AT89S52)
 
 ## Informações Adicionais
 
