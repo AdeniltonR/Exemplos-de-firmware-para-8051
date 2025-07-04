@@ -79,7 +79,7 @@ Clique em `Finish`:
 ```c
 /*
  * NOME: Nome
- * DATA: 12/09/2024
+ * DATA: 03/07/2025
  * PROJETO: Nome do projeto
  * VERSAO: 01
  * DESCRICAO: - feat: Descrição.

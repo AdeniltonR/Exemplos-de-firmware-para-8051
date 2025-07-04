@@ -34,7 +34,7 @@ Softwares a serem instalados:
 
 Configuração do microcontrolador:
 
-⚙️ [ATMEL AT89S52]()
+⚙️ [ATMEL AT89S51]()
 
 ## Informações Adicionais
 
