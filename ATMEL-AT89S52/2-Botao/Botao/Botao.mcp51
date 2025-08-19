@@ -1,6 +1,6 @@
 [DEVICE]
 Name=AT89S52
-Clock=8000000
+Clock=10000000
 [MEMORY_MODEL]
 Value=0
 [BUILD_TYPE]
@@ -31,10 +31,11 @@ Count=0
 [OTHER_FILES]
 Count=0
 [SEARCH_PATH]
-Count=3
+Count=4
 Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\defs\
-Path1=C:\Users\adenilton.ribeiro\Documents\CEDEPS\Projetos-AWS\Projeto-Documentacao-CEDEPS\projetos.Documentacao.CEDEPS\8051\ATMEL-AT89S52\2-Botao\Botao\
-Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\Uses\ATMEL\
+Path1=G:\Meu Drive\Meus Projetos\GitHub\Exemplos-de-Codigo\8051\Exemplos-de-firmware-para-8051\ATMEL-AT89S52\2-Botao\Botao\
+Path2=C:\Users\adenilton.ribeiro\Documents\CEDEPS\Projetos-AWS\Projeto-Documentacao-CEDEPS\projetos.Documentacao.CEDEPS\8051\ATMEL-AT89S52\2-Botao\Botao\
+Path3=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\Uses\ATMEL\
 [HEADER_PATH]
 Count=0
 [HEADERS]
